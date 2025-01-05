@@ -60,7 +60,7 @@ namespace WpfApp
                                 Produkt = reader.GetString("Produkt"),
                                 Beschreibung = reader.GetString("Beschreibung"),
                                 Preis = reader.GetDecimal("Preis"),
-                                Anzahl = reader.GetInt32("Anzahl"),
+                                Anzahl = reader.GetDecimal("Anzahl"),
                                 Gesamtpreis = reader.GetDecimal("Gesamtpreis")
                             });
                         }
