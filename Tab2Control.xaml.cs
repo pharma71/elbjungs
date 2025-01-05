@@ -30,8 +30,6 @@ namespace WpfApp
                 Anzahl = 0,
                 Gesamtpreis = 0
             };
-
-            Window_Loaded();
         }
 
         private void UpdateEditForm()
